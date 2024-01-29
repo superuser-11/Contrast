@@ -1,0 +1,161 @@
+@font-face {
+    font-family: robotobold;
+    src: url("assets/Fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: robotoblack;
+    src: url("assets/Fonts/Roboto-Light.ttf");
+}
+
+* {
+    font-family: robotoblack;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* code for top-bar */
+.top-bar {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone p {
+
+    color: white;
+}
+
+p img {
+    position: relative;
+    top: 6px;
+}
+
+.phone {
+    margin-left: 95px;
+}
+
+.social {
+    margin: 14px 84px 0 0;
+}
+.social img{
+    cursor: pointer;
+}
+.social img:hover{
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+/* code for nav bar */
+.main {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.contrast {
+    margin-left: 88px;
+}
+
+.contrast h1 {
+    display: inline-block;
+    font-family: robotobold;
+}
+
+.nav-bar {
+    margin-right: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 3px 32px 0 0;
+    cursor: pointer;
+}
+li:hover{
+    font-weight: bold;
+}
+/* code for bg */
+.bg {
+    background-image: url(assets/IMG-20231114-WA0104_cleanup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 437px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg h1 {
+    color: white;
+    text-align: center;
+}
+
+.bg h1::after {
+    right: 148px;
+    display: inline-block;
+    content: " ";
+    position: relative;
+    top: 27px;
+    background-color: white;
+    width: 102px;
+    height: 3px;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+/* code for footer  */
+.footer {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #191919;
+    height: 126px;
+}
+
+.footer .ending {
+
+    color: white;
+    font-size: 21px;
+
+}
+
+.ending .startnow {
+    font-size: 14px;
+    color: gray;
+}
+
+button {
+    padding: 8px 13px;
+    border: none;
+    font-family: robotobold;
+    border-radius: 9px;
+    transition: all ease 0.2s;
+}
+button:hover{
+    color: white;
+    background-color:rgba(22, 22, 207, 0.219);
+}
+button:active {
+    scale: 0.9;
+    background-color: aquamarine;
+}
+
+#lmore {
+    margin-left: 23px;
+}
